@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Amy from '../../../assets/image-amy.webp';
+import Amy from '../../assets/image-amy.webp';
 import { Fade } from 'react-reveal';
 import {
   ContainerApresentation,

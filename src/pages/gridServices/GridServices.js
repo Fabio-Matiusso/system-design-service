@@ -1,11 +1,11 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
-import PatternGraphicDesign from '../../../assets/pattern-graphic-design.svg';
-import PatternUxUiDesign from '../../../assets/pattern-ui-ux.svg';
-import PatternApps from '../../../assets/pattern-apps.svg';
-import PatternIllustrations from '../../../assets/pattern-illustrations.svg';
-import PatternMotionGraphics from '../../../assets/pattern-graphic-design.svg';
-import PatternPhotography from '../../../assets/pattern-photography.svg';
+import PatternGraphicDesign from '../../assets/pattern-graphic-design.svg';
+import PatternUxUiDesign from '../../assets/pattern-ui-ux.svg';
+import PatternApps from '../../assets/pattern-apps.svg';
+import PatternIllustrations from '../../assets/pattern-illustrations.svg';
+import PatternMotionGraphics from '../../assets/pattern-graphic-design.svg';
+import PatternPhotography from '../../assets/pattern-photography.svg';
 import {
   GridContainerServices,
   GraphicDesign,

@@ -1,11 +1,11 @@
 import React from 'react';
-import ImageSlideOne from '../../../assets/image-slide-1.jpg';
-import ImageSlideTwo from '../../../assets/image-slide-2.jpg';
-import ImageSlideThree from '../../../assets/image-slide-3.jpg';
-import ImageSlideFour from '../../../assets/image-slide-4.jpg';
-import ImageSlideFive from '../../../assets/image-slide-5.jpg';
+import ImageSlideOne from '../../assets/image-slide-1.jpg';
+import ImageSlideTwo from '../../assets/image-slide-2.jpg';
+import ImageSlideThree from '../../assets/image-slide-3.jpg';
+import ImageSlideFour from '../../assets/image-slide-4.jpg';
+import ImageSlideFive from '../../assets/image-slide-5.jpg';
 import Carousel from 'nuka-carousel';
-import { ContainerSlide, Title, Image } from './StyledComponentsSlide';
+import { Title, Image } from './StyledComponentsSlide';
 
 const Slide = () => {
   const info = [

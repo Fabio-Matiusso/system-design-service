@@ -17,16 +17,16 @@ const Solutions = () => {
 
   const infosMap = infos.map(({ title, description }) => (
     <>
-      <Title>{title}</Title>
-      <Description>{description}</Description>
+      <Fade top>
+        <ContainerSolution>
+          <Title>{title}</Title>
+          <Description>{description}</Description>
+        </ContainerSolution>
+      </Fade>
     </>
   ));
 
-  return (
-    <Fade top>
-      <ContainerSolution>{infosMap}</ContainerSolution>
-    </Fade>
-  );
+  return infosMap;
 };
 
 export default Solutions;

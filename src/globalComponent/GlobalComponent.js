@@ -1,9 +1,10 @@
 import React from 'react';
 import Menu from '../pages/menu/Menu';
-import Solutions from '../pages/menu/solutions/Solutions';
-import GridServices from '../pages/menu/gridServices/GridServices';
-import Apresentation from '../pages/menu/apresentation/Apresentation';
-import Slide from '../pages/menu/slide/Slide';
+import Solutions from '../pages/solutions/Solutions';
+import GridServices from '../pages/gridServices/GridServices';
+import Apresentation from '../pages/apresentation/Apresentation';
+import Slide from '../pages/slide/Slide';
+import CallToAction from '../pages/callToAction/CallToAction';
 
 const GlobalComponent = () => {
   return (
@@ -13,6 +14,8 @@ const GlobalComponent = () => {
       <GridServices />
       <Apresentation />
       <Slide />
+      <CallToAction />
+      <Menu />
     </>
   );
 };

@@ -10,10 +10,11 @@ export const Header = styled.header`
 `;
 
 export const Button = styled.button`
-  background-color: black;
   color: white;
   width: 228px;
   height: 48px;
   border-radius: 50px;
   font-weight: 550;
+  border: none;
+  transition: all 0.1s ease;
 `;
