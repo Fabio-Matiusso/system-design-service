@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const GridContainerServices = styled.article`
   display: grid;
-  max-width: 950px;
-  max-height: 350px;
+  max-width: 1100px;
+  max-height: 388px;
   margin: 0 auto;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;

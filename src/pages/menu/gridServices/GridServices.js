@@ -71,8 +71,12 @@ const GridServices = () => {
         <GraphicDesign>
           {showContent('Graphic Design', PatternGraphicDesign)}
         </GraphicDesign>
-        <UiUx>{showContent('UI/UX', PatternUxUiDesign)}</UiUx>
-        <Apps>{showContent('Apps', PatternApps)}</Apps>
+        <UiUx>
+          {showContent('UI/UX', PatternUxUiDesign)}
+          </UiUx>
+        <Apps>
+          {showContent('Apps', PatternApps)}
+          </Apps>
         <Illustration>
           {showContent('Illustrations', PatternIllustrations)}
         </Illustration>
