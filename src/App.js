@@ -1,7 +1,8 @@
 import React from 'react';
+import GlobalComponent from './globalComponent/GlobalComponent';
 
-function App() {
-  return <div></div>;
-}
+const App = () => {
+  return <GlobalComponent />
+};
 
 export default App;
