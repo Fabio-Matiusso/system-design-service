@@ -8,6 +8,11 @@ export const GridContainerServices = styled.article`
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
   gap: 20px;
+
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 100px);
+  }
 `;
 
 export const GraphicDesign = styled.div`
@@ -25,6 +30,19 @@ export const GraphicDesign = styled.div`
 
   h1 {
     align-self: flex-end;
+  }
+
+  @media (max-width: 600px) {
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+
+    img {
+      max-width: 40%;
+    }
+
+    h1 {
+      font-size: 18px;
+    }
   }
 `;
 
@@ -44,6 +62,18 @@ export const UiUx = styled.div`
 
   h1 {
     align-self: flex-end;
+  }
+
+  @media (max-width: 600px) {
+    grid-column: 3 / 4;
+
+    img {
+      max-width: 40%;
+    }
+
+    h1 {
+      font-size: 18px;
+    }
   }
 `;
 
@@ -65,6 +95,18 @@ export const Apps = styled.div`
   h1 {
     align-self: flex-end;
   }
+
+  @media (max-width: 600px) {
+    grid-column: 4 / 5;
+
+    img {
+      max-width: 40%;
+    }
+
+    h1 {
+      font-size: 18px;
+    }
+  }
 `;
 
 export const Illustration = styled.div`
@@ -83,6 +125,18 @@ export const Illustration = styled.div`
 
   h1 {
     align-self: flex-end;
+  }
+
+  @media (max-width: 600px) {
+    grid-column: 3 / 5;
+
+    img {
+      max-width: 40%;
+    }
+
+    h1 {
+      font-size: 18px;
+    }
   }
 `;
 
@@ -105,6 +159,15 @@ export const Photograph = styled.div`
   h1 {
     align-self: flex-end;
   }
+
+  @media (max-width: 600px) {
+    grid-column: 1 / 3;
+    grid-row: 3;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
 `;
 
 export const MotionGraphics = styled.div`
@@ -124,6 +187,24 @@ export const MotionGraphics = styled.div`
   h1 {
     align-self: flex-end;
     grid-row: 2;
+  }
+
+  @media (max-width: 600px) {
+    grid-column: 3 / 5;
+    grid-row: 3;
+    grid-template-columns: repeat(1, 1fr);
+
+    img {
+      max-width: 40%;
+      grid-row: 1 / -1;
+      grid-column: 2;
+    }
+
+    h1 {
+      font-size: 18px;
+      grid-column: 1 / -1;
+      grid-row: 1;
+    }
   }
 `;
 

@@ -10,6 +10,10 @@ export const ContainerSolution = styled.section`
   justify-content: center;
   gap: 15px;
   padding: 150px 0px;
+
+  @media (max-width: 600px) {
+    max-height: 500px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -17,6 +21,10 @@ export const Title = styled.h1`
   font-weight: 700;
   font-size: 56px;
   line-height: 71px;
+
+  @media (max-width: 900px) {
+    font-size: 48px;
+  }
 `;
 
 export const Description = styled.p`
@@ -25,4 +33,8 @@ export const Description = styled.p`
   font-size: 18px;
   line-height: 28px;
   text-align: center;
+
+  @media (max-width: 900px) {
+    font-size: 16px;
+  }
 `;

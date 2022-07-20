@@ -11,4 +11,8 @@ export const Title = styled.h1`
 
 export const Image = styled.img`
   width: 100%;
+
+  @media (max-width: 600px) {
+    max-width: 300px;
+  }
 `;

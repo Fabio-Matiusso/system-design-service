@@ -24,6 +24,14 @@ export const Title = styled.h1`
   font-size: 34px;
   line-height: 50px;
   color: #fff7f0;
+
+  @media (max-width: 900px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 600px){
+    font-size: 24px;
+  }
 `;
 
 export const Description = styled.p`
@@ -32,6 +40,14 @@ export const Description = styled.p`
   font-size: 18px;
   line-height: 28px;
   color: #fff7f0;
+
+  @media (max-width: 900px){
+    font-size: 16px;
+  }
+
+  @media (max-width: 600px){
+    font-size: 14px;
+  }
 `;
 
 export const Button = styled.button`
@@ -42,4 +58,8 @@ export const Button = styled.button`
   font-weight: 550;
   align-self: center;
   transition: all 0.1s ease;
+
+  @media (max-width: 600px){
+    width: 170px;
+  }
 `;
